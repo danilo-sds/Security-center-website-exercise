@@ -1,5 +1,6 @@
 .main-header{
-    background: #38B0DE;
+    background: rgb(0,153,198);
+    background: linear-gradient(180deg, rgba(0,153,198,1) 0%, rgba(0,199,178,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +46,7 @@
 .text-header{
     display: flex;
     padding-top: 100px;
+    width: 1100px;
 }
 
 .text-header h1 {
@@ -54,11 +56,14 @@
 }
 
 .text-header-image {
+    position: absolute;
+    right: 0;
     margin-right: 50px;
 }
 
 .header-column {
-    
+    width: 50%;
+    position: relative;
 }
 
 /*Colocar text-information text-icons*/
