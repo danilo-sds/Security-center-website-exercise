@@ -12,7 +12,6 @@
     justify-content: space-between;
     width: 1100px;
     margin-top:5px;
-    height: 210px;
 }
 
 .header-nav ul{
@@ -45,12 +44,21 @@
 
 .text-header{
     display: flex;
+    padding-top: 100px;
 }
 
 .text-header h1 {
     color: #fff;
 }
-.text-header p{
+.text-header p {
+}
+
+.text-header-image {
+    margin-right: 50px;
+}
+
+.header-column {
+    
 }
 
 /*Colocar text-information text-icons*/
